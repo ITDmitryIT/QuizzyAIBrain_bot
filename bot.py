@@ -4,7 +4,7 @@ from database import create_table
 from handlers import router
 
 # Инициализация бота и диспетчера
-bot = Bot(token="8182695012:AAHF763LI5pRCxjy0jaL0REGFb52nRbmdHU")  # Замените на ваш токен
+bot = Bot(token="ВАШ_ТОКЕН")  # Замените на ваш токен
 dp = Dispatcher()
 dp.include_router(router)  # Подключаем роутер с обработчиками
 
